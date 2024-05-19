@@ -3,8 +3,8 @@ DEMO
 
 You can find the sample Live Demo here...
 
-**[Live Demo](https://www.youtube.com/watch?v=FcSp03NlpPs)**
-**[Download Raw - Live Demo](https://monfortedental-client.s3.ap-southeast-1.amazonaws.com/livedemo/Live-Demo.mp4)**
+- **[Live Demo](https://www.youtube.com/watch?v=FcSp03NlpPs)**
+- **[Download Raw - Live Demo](https://monfortedental-client.s3.ap-southeast-1.amazonaws.com/livedemo/Live-Demo.mp4)**
 
 
 WIKI - Documentation
@@ -13,13 +13,12 @@ WIKI - Documentation
 
 ![Project Logo](http://monfortedental-client.s3-website-ap-southeast-1.amazonaws.com/logo.png)
 
-[Deployed version](http://monfortedental-client.s3-website-ap-southeast-1.amazonaws.com/)
+- [Deployed version](http://monfortedental-client.s3-website-ap-southeast-1.amazonaws.com/)
 
 - [Backend with EKS] - Im sorry I have trouble with setting up external ip to run it online (ONGOING).
 
 ## Table of Contents
 
-- [Objective](#project-description)
 - [Project Description](#project-description)
 - [Installation Instructions](#installation-instructions)
 - [Usage Instructions](#usage-instructions)
