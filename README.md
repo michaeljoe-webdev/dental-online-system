@@ -21,7 +21,6 @@ WIKI - Documentation
 
 - [Project Description](#project-description)
 - [Installation Instructions](#installation-instructions)
-- [Usage Instructions](#usage-instructions)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Documentation](#documentation)
@@ -107,23 +106,19 @@ Develop a web application for a dental office that allows patients to schedule a
     cd mysql
     ```
 
-
-## Usage Instructions
-
-Provide instructions and examples for using the project. Include screenshots or code examples if applicable.
-
-```bash
-# Example usage
-command to run the project
- ```
-
 ## Features
+- Front End:
+    User Interface: Login, Register, Contact, Dashboard, Appointment.
+
+- Back End:
+    Server-side: Authentication, Api-limiter, Data Store and Fetch.
 
 ## Technologies Used
     Front-end
     - REACT v18.2.0 as framework
     - Dependencies ( Vite, Redux, Axios, SweetAlert)
     - AWS S3 Bucket
+    - Formsfree
 
     Back-end
     - Node.js
@@ -141,6 +136,7 @@ command to run the project
 
 
 ## Documentation
+
 
 ## Contact Information
  - monfortemichaeljoe@gmail.com
