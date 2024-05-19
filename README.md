@@ -137,13 +137,21 @@ Develop a web application for a dental office that allows patients to schedule a
 
 ## Documentation
 
+### System Architecture
+
+Our system architecture is divided into several key components:
+
 **Database Table Schema**
 
 > ![Database Table Schema](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/Table_Schema.png)
 
+The database schema outlines the structure of our database, including the relationships between tables and the types of data stored.
+
 **Interface Flow**
 
 > ![Interface Flow](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/Interface_Flow.png)
+
+The interface flow diagram illustrates how users navigate through the application, highlighting key interfaces and interactions.
 
 
 
