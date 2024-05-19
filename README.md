@@ -115,7 +115,7 @@ Develop a web application for a dental office that allows patients to schedule a
 
 ## Technologies Used
     Front-end
-    - REACT v18.2.0 as framework
+    - REACT v18.2.0
     - Dependencies ( Vite, Redux, Axios, SweetAlert)
     - AWS S3 Bucket
     - Formsfree
@@ -136,6 +136,10 @@ Develop a web application for a dental office that allows patients to schedule a
 
 
 ## Documentation
+1. Database Table Schema
+![](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/Table_Schema.png)
+
+2.
 
 
 ## Contact Information
