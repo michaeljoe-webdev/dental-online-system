@@ -24,8 +24,7 @@ WIKI - Documentation
 - [Usage Instructions](#usage-instructions)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Contributors](#contributors)
-- [License](#license)
+- [Documentation](#documentation)
 - [Contact Information](#contact-information)
 
 ## Project Description
@@ -118,4 +117,18 @@ Provide instructions and examples for using the project. Include screenshots or 
 command to run the project
  ```
 
-## Usage Instructions
+## Features
+
+## Technologies Used
+    Front-end
+    - React18 as framework
+    - Dependencies ( Redux, Axios, SweetAlert)
+
+    Back-end
+
+## Documentation
+
+## Contact Information
+ - monfortemichaeljoe@gmail.com
+
+
