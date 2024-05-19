@@ -1,0 +1,22 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    border: 1px solid red;
+    margin: 2rem 0;
+}
+  
+.greetings {
+    display: block;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.285);
+    padding: 1rem 0;
+}
+
+.greetings h1 {
+    font-weight: lighter;
+    font-size: 12px;
+    justify-content: left;
+}

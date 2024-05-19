@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: monfortedental-server-deployment
+  labels:
+    app: monfortedental-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: monfortedental-server
+  template:
+    metadata:
+      labels:
+        app: monfortedental-server
+    spec:
+      containers:
+      - name: monfortedental-server
+        image: 975050143217.dkr.ecr.ap-southeast-1.amazonaws.com/monfortedental_server:latest
+        ports:
+        - name: http
+          containerPort: 3000
+        resources:
+          requests:
+            memory: 64Mi
+            cpu: 100m
+          limits:
+            memory: 128Mi
+            cpu: 300m

@@ -1,0 +1,86 @@
+.schedule-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 450px;
+  background-color: rgba(255, 255, 255, 0.588);
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.schedule-container h1 {
+  font-weight: bolder;
+}
+
+/* Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 200px;
+}
+
+/* Table Header */
+.table th {
+  background-color: #bab7b7;
+  color: #171616;
+  font-weight: bold;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Table Body */
+.isCancelled {
+  background-color: rgba(232, 36, 36, 0.397);
+}
+
+.isBooked {
+  background-color: rgba(232, 154, 36, 0.397);
+}
+
+.table td {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  
+  border: 1px #6B73FF;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+.table tbody tr:hover {
+  background-color: #6B73FF;
+  cursor: pointer;
+}
+
+/* Legend  */
+.legend {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  border-radius: 50%;
+}
+
+.legend-booked {
+  background-color: orange;
+}
+
+.legend-cancelled {
+  background-color: red;
+}
+
