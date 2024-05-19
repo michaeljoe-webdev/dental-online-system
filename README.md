@@ -136,11 +136,14 @@ Develop a web application for a dental office that allows patients to schedule a
 
 
 ## Documentation
+
 **Database Table Schema**
-![](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/Table_Schema.png)
+
+> ![Database Table Schema](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/Table_Schema.png)
 
 **Interface Flow**
-![](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/Interface_Flow.png)
+
+> ![Interface Flow](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/Interface_Flow.png)
 
 
 
