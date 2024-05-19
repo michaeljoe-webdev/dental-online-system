@@ -121,10 +121,24 @@ command to run the project
 
 ## Technologies Used
     Front-end
-    - React18 as framework
-    - Dependencies ( Redux, Axios, SweetAlert)
+    - REACT v18.2.0 as framework
+    - Dependencies ( Vite, Redux, Axios, SweetAlert)
+    - AWS S3 Bucket
 
     Back-end
+    - Node.js
+    - Dependencies ( express, express-rate-limit, dotenv, jsonwebtoken, bcrypt, mysql, knex, nodemon)
+    - Docker to create and test the .img.
+    - Amazon Elastic Container Registry as container for the .img.
+    - Amazon Elastic Kubernetes Service to run the shared container.
+    - Lambda and API Gateway for backup server-side.
+
+    Database
+    - MySQL
+    - Microsoft Workbench
+    - Amazon RDS with relational database.
+    - Apache24 and HeidiSQL to run query and check stored MySQL database locally.
+
 
 ## Documentation
 
