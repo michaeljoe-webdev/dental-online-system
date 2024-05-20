@@ -93,17 +93,23 @@ Develop a web application for a dental office that allows patients to schedule a
     ```
 
     For the client side (BACK-END)
+
     ```bash
     nodemon
     ```
+    
 5. **Setting up the local database with MySQL**:
 
     Create a database name `monfortedental_db`
+
+     ```bash
+    CREATE DATABASE monfortedental_db;
+    ```
     
-    Inside the database `monfortedental_db`, import the `monfortedental_db.sql` located in database folder.
+    Inside the database `monfortedental_db`, import the sql file named `monfortedental_db.sql` located in database folder.
     
     ```bash
-    cd mysql
+    cd database
     ```
 
 ## Features
