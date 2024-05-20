@@ -159,6 +159,12 @@ The entity relationship diagram (ERD) shows the relationships between different 
 
 The interface flow diagram illustrates how users navigate through the application, highlighting key interfaces and interactions.
 
+**API Request Flow**
+
+> ![API Request Flow*](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/API_Request_Flow.png)
+
+The API Request Flow diagram illustrates the process of how an API request is handled within our system, highlighting key components and interactions between the frontend and backend.
+
 
 
 ## Contact Information
