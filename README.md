@@ -147,6 +147,12 @@ Our system architecture is divided into several key components:
 
 The database schema outlines the structure of our database, including the relationships between tables and the types of data stored.
 
+**Entity Relationship**
+
+> ![Entity Relationship](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/Entity_Relationship.png)
+
+The database schema outlines the structure of our database, including the relationships between tables and the types of data stored.
+
 **Interface Flow**
 
 > ![Interface Flow](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/Interface_Flow.png)
