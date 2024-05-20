@@ -139,19 +139,19 @@ Develop a web application for a dental office that allows patients to schedule a
 
 ### System Architecture
 
-Our system architecture is divided into several key components:
+The system architecture is divided into several key components:
 
 **Database Table Schema**
 
 > ![Database Table Schema](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/Table_Schema.png)
 
-The database schema outlines the structure of our database, including the relationships between tables and the types of data stored.
+The database schema outlines the structure of our database tables, including the types of data stored in each table, the columns, and their data types. It helps in understanding how data is organized within individual tables.
 
 **Entity Relationship**
 
 > ![Entity Relationship](https://raw.githubusercontent.com/michaeljoe-webdev/dental-online-system/main/wiki/Entity_Relationship.png)
 
-The database schema outlines the structure of our database, including the relationships between tables and the types of data stored.
+The entity relationship diagram (ERD) shows the relationships between different entities (tables) in our database. It highlights how tables are interconnected through primary and foreign keys, and it helps in understanding the overall structure and flow of data across the database.
 
 **Interface Flow**
 
