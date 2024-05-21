@@ -1,15 +1,13 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: Pod
 metadata:
-  name: monfortedental-server-pod
-  labels:
-    app: monfortedental-server
+  name: nodejs-pod
 spec:
   containers:
-  - name: monfortedental-server
-    image: 975050143217.dkr.ecr.ap-southeast-1.amazonaws.com/monfortedental_server:latest
+  - name: nodejs-container
+    image: 975050143217.dkr.ecr.ap-southeast-1.amazonaws.com/dental:v1.0
     ports:
-    - containerPort: 80
+    - containerPort: 3000
     resources:
       limits:
         memory: "512Mi"
@@ -21,4 +19,4 @@ spec:
     - name: NODE_ENV
       value: "production"
     - name: PORT
-      value: "80"
+      value: "3000"

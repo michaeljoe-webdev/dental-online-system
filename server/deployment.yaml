@@ -1,22 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: monfortedental-server-deployment
-  labels:
-    app: monfortedental-server
+  name: nodejs-deployment
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: monfortedental-server
+      app: nodejs
   template:
     metadata:
       labels:
-        app: monfortedental-server
+        app: nodejs 
     spec:
       containers:
-      - name: monfortedental-server
-        image: 975050143217.dkr.ecr.ap-southeast-1.amazonaws.com/monfortedental_server:latest
+      - name: nodejs-container
+        image: 975050143217.dkr.ecr.ap-southeast-1.amazonaws.com/dental:v1.0
         ports:
         - name: http
           containerPort: 3000
