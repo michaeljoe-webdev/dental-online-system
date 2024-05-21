@@ -66,6 +66,7 @@ Develop a web application for a dental office that allows patients to schedule a
     ```
 
 
+
 3. **Set up environment variables**:
 
     Create a `.env` file in the root directory and add the necessary environment variables.
@@ -92,13 +93,34 @@ Develop a web application for a dental office that allows patients to schedule a
     npm run dev
     ```
 
-    For the client side (BACK-END)
+    For the server side using nodemon (BACK-END)
 
     ```bash
     nodemon
     ```
+
+    For the server using `Docker` (BACK-END)
+
+    1. Pull the image from docker hub
+    ```bash
+    docker pull michaeljoewebdev/monfortedental_server:latest
+    ```
     
-5. **Setting up the local database with MySQL**:
+    2. Run the image in container
+    ```bash
+    docker run -d -p 3000:3000 michaeljoewebdev/monfortedental_server
+    ```
+    
+    3. Check the image is running
+    ```bash
+    docker ps
+    ```
+    4. To stop the running container
+    ```bash
+    docker rm -f <container ID>
+    ```
+    
+5. **Incase your are not using `Docker` this set up the local database with MySQL**:
 
     Create a database name `monfortedental_db`
 
