@@ -120,7 +120,7 @@ Develop a web application for a dental office that allows patients to schedule a
     docker rm -f <container ID>
     ```
     
-5. **Incase your are not using `Docker` this set up the local database with MySQL**:
+5. **Incase you are not using `Docker`, follow this to set up the local database with MySQL**:
 
     Create a database name `monfortedental_db`
 
